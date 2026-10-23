@@ -1,0 +1,13 @@
+{
+  "initial_equity": 1000.0,
+  "max_inventory_notional": 250.0,
+  "max_leverage": 3.0,
+  "max_loss_per_position": 5.0,
+  "maker_fee": 0.00015,
+  "taker_fee": 0.00045,
+  "assumed_latency_ms": 250,
+  "stale_after_ms": 1500,
+  "minimum_notional": 10.0,
+  "minimum_edge_bps": 5.0
+}
+

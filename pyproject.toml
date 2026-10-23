@@ -1,0 +1,21 @@
+[project]
+name = "btc-hft-lab"
+version = "0.1.0"
+description = "Event-driven BTC microstructure research for Hyperliquid"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+btc-hft = "hft_lab.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
